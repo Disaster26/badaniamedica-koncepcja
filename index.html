@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow" data-podglad>
+<title>Punkt Pobrań Krwi Medica Wieluń - badania krwi, pakiety badań, wyniki tego samego dnia</title>
+<meta name="description" content="Punkt Pobrań Krwi Medica w Wieluniu, ul. Krakowskie Przedmieście 46. Badania krwi, 37 pakietów badań w niższych cenach, domowe pobranie krwi, wyniki tego samego dnia. Pn-pt 6:30-11:30, sob. 6:30-11:00.">
+<meta name="theme-color" content="#1E2A5A">
+<link rel="icon" href="img/znak.png">
+<link rel="preload" as="font" type="font/woff2" href="fonts/montserrat-rdzen.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/figtree-rdzen.woff2" crossorigin>
+<link rel="preload" as="image" href="img/hero-m-900.webp" media="(max-width:767px)" fetchpriority="high">
+<link rel="preload" as="image" imagesrcset="img/hero-1280.webp 1280w, img/hero-1920.webp 1920w, img/hero-2560.webp 2560w, img/hero-3200.webp 3200w" imagesizes="100vw" media="(min-width:768px)" fetchpriority="high">
+<style>
+@font-face{font-family:"Montserrat";font-style:normal;font-weight:500 700;font-display:swap;src:url(fonts/montserrat-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00F3,U+2013,U+2018-2019,U+201C-201E,U+2022,U+2026}
+@font-face{font-family:"Montserrat";font-style:normal;font-weight:500 700;font-display:swap;src:url(fonts/montserrat-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Figtree";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/figtree-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00F3,U+2013,U+2018-2019,U+201C-201E,U+2022,U+2026}
+@font-face{font-family:"Figtree";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/figtree-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+:root{
+  --granat:#1E2A5A;--granat2:#141D44;--morski:#2B4A6A;--mieta:#3FAE90;--mieta-j:#5EDBAF;
+  --szary:#EEF2F4;--linia:#D8DFE5;--tekst:#1A2240;--tekst2:#4B5470;
+  --hh:68px;--w:calc(100vw - 32px);--odst:clamp(64px,7vw,128px);
+  --kropla:6px 34px 34px 34px;
+}
+@media (min-width:900px){:root{--hh:88px;--w:min(90vw,1560px)}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
+body{margin:0;background:#fff;color:var(--tekst);font:400 clamp(16px,.2vw + 15px,18px)/1.62 Figtree,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{font-family:Montserrat,system-ui,sans-serif;font-weight:700;line-height:1.14;margin:0;letter-spacing:-.01em}
+h2{font-size:clamp(28px,2.4vw + 14px,50px);color:var(--granat)}
+h3{font-size:clamp(18px,.5vw + 15px,22px)}
+p{margin:0}
+.w{width:var(--w);margin:0 auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 26px;border-radius:var(--kropla);font:700 16px/1 Montserrat,sans-serif;text-decoration:none;border:2px solid transparent;transition:background .2s,color .2s,border-color .2s;cursor:pointer;white-space:nowrap}
+.btn svg{width:18px;height:18px;flex:none}
+.btn-mieta{background:var(--mieta-j);color:var(--granat2)}
+.btn-mieta:hover{background:#7FE6C1}
+.btn-obrys{border-color:rgba(255,255,255,.75);color:#fff}
+.btn-obrys:hover{background:#fff;color:var(--granat)}
+.btn-granat{background:var(--granat);color:#fff}
+.btn-granat:hover{background:var(--morski)}
+
+/* naglowek */
+.nag{position:sticky;top:0;z-index:50;background:#fff;height:var(--hh);border-bottom:1px solid var(--linia)}
+.nag .w{height:100%;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{display:block;flex:none}
+.logo img{height:calc(var(--hh) - 16px);width:auto}
+.menu{display:none}
+.menu a{text-decoration:none;font:600 16px/1 Montserrat,sans-serif;color:var(--granat);padding:10px 2px;position:relative}
+.menu a::after{content:"";position:absolute;left:0;right:0;bottom:2px;height:3px;border-radius:2px;background:var(--mieta-j);transform:scaleX(0);transform-origin:left;transition:transform .25s}
+.menu a:hover::after,.menu a.akt::after{transform:scaleX(1)}
+.nag-tel{display:none}
+.burger{width:48px;height:48px;border:0;background:var(--szary);border-radius:var(--kropla);display:grid;place-items:center;cursor:pointer}
+.burger span{display:block;width:22px;height:2px;background:var(--granat);position:relative}
+.burger span::before,.burger span::after{content:"";position:absolute;left:0;width:22px;height:2px;background:var(--granat)}
+.burger span::before{top:-7px}.burger span::after{top:7px}
+.mmenu{position:fixed;inset:var(--hh) 0 auto 0;background:#fff;border-bottom:1px solid var(--linia);padding:8px 16px 20px;display:none;z-index:49;box-shadow:0 20px 40px rgba(20,29,68,.12)}
+.mmenu.otw{display:block}
+.mmenu a{display:block;padding:14px 4px;border-bottom:1px solid var(--szary);text-decoration:none;font:600 18px/1.2 Montserrat,sans-serif;color:var(--granat)}
+.mmenu .btn{margin-top:16px;width:100%}
+@media (min-width:1100px){
+  .menu{display:flex;gap:clamp(20px,2.2vw,40px)}
+  .nag-tel{display:inline-flex}
+  .burger{display:none}
+}
+
+/* hero */
+.hero{position:relative;color:#fff;background:var(--granat);overflow:hidden;display:flex;min-height:calc(100svh - var(--hh))}
+.hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%}
+.hero picture img{object-fit:cover;object-position:60% 30%}
+.hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(20,29,68,0) 28%,rgba(20,29,68,.72) 52%,rgba(20,29,68,.96) 78%)}
+.hero-tr{position:relative;z-index:2;width:var(--w);margin:0 auto;display:flex;flex-direction:column;justify-content:flex-end;padding:120px 0 28px}
+.hero h1{font-size:clamp(31px,3.6vw + 12px,76px);max-width:15ch}
+.hero h1 span{display:block;color:var(--mieta-j)}
+.hero .lead{margin-top:16px;font-size:clamp(16px,.5vw + 14px,21px);max-width:44ch;color:#E6ECF5}
+.godz{display:inline-flex;flex-wrap:wrap;gap:4px 14px;margin-top:18px;padding:10px 14px;border-left:3px solid var(--mieta-j);background:rgba(255,255,255,.08);border-radius:0 14px 14px 0;font-size:15px;color:#fff;width:max-content;max-width:100%}
+.godz b{font-family:Montserrat,sans-serif;font-weight:700}
+.hero-cta{display:flex;flex-direction:column;gap:12px;margin-top:24px}
+@media (min-width:560px){.hero-cta{flex-direction:row;flex-wrap:wrap}}
+@media (max-width:420px){.hero-tr{padding-bottom:20px}.hero .lead{margin-top:12px}.godz{margin-top:14px;font-size:14px}.hero-cta{margin-top:24px}.hero-cta .btn{min-height:50px}}
+@media (min-width:768px){
+  .hero{min-height:min(calc(100svh - var(--hh)),980px)}
+  .hero::before{background:linear-gradient(90deg,rgba(20,29,68,.97) 0%,rgba(20,29,68,.9) 26%,rgba(20,29,68,.45) 46%,rgba(20,29,68,0) 62%)}
+  .hero picture img{object-position:50% 35%}
+  .hero-tr{justify-content:center;padding:64px 0}
+  .hero h1{max-width:13ch}
+  .hero .lead{max-width:36ch}
+}
+
+/* pasek informacji */
+.info{border-bottom:1px solid var(--linia)}
+.info .w{display:grid;gap:0}
+.info-k{padding:22px 0;border-bottom:1px solid var(--szary);display:flex;gap:16px;align-items:flex-start}
+.info-k:last-child{border-bottom:0}
+.info-k .kr{flex:none;width:30px;height:34px;margin-top:2px}
+.info-k h3{font-size:15px;text-transform:none;color:var(--mieta);font-weight:700;margin-bottom:4px}
+.info-k p{color:var(--tekst);font-size:17px;line-height:1.5}
+.info-k a{text-decoration:none;font-weight:600}
+.info-k a:hover{color:var(--mieta)}
+@media (min-width:900px){.info .w{grid-template-columns:repeat(3,1fr)}.info-k{padding:34px 28px;border-bottom:0;border-left:1px solid var(--szary)}.info-k:first-child{border-left:0;padding-left:0}}
+
+/* sekcje */
+.sek{padding:var(--odst) 0}
+.szara{background:var(--szary)}
+.sek-g{display:flex;flex-direction:column;gap:16px;margin-bottom:clamp(28px,3vw,52px)}
+.sek-g p{max-width:58ch;color:var(--tekst2);font-size:clamp(16px,.3vw + 15px,19px)}
+@media (min-width:900px){.sek-g{flex-direction:row;justify-content:space-between;align-items:flex-end;gap:40px}}
+
+/* pakiety */
+.karuzela{position:relative}
+.tor{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-left:16px;scrollbar-width:none;padding:4px 16px 8px;margin:0 -16px;cursor:grab;-webkit-overflow-scrolling:touch}
+.tor::-webkit-scrollbar{display:none}
+.tor.ciag{cursor:grabbing;scroll-snap-type:none}
+.tor.ciag *{user-select:none}
+@media (min-width:900px){.tor{padding:4px 0 8px;margin:0;scroll-padding-left:0}}
+.pak{flex:0 0 min(84vw,340px);scroll-snap-align:start;background:#fff;border-radius:var(--kropla);padding:26px 24px 22px;display:flex;flex-direction:column;border:1px solid var(--linia);position:relative}
+.pak::before{content:"";position:absolute;top:-1px;left:-1px;width:56px;height:6px;border-radius:6px 0 6px 0;background:linear-gradient(90deg,var(--morski),var(--mieta-j))}
+.pak h3{color:var(--granat);font-size:20px;min-height:2.3em}
+.pak .w-p{font-size:13px;color:var(--tekst2);margin:18px 0 0;font-weight:600}
+.pak ul{list-style:none;padding:0;margin:10px 0 0;display:flex;flex-wrap:wrap;gap:7px;align-content:flex-start}
+.pak li{font-size:14px;line-height:1.3;padding:6px 10px;background:var(--szary);border-radius:4px 12px 12px 12px;color:var(--tekst)}
+.cena{display:flex;align-items:baseline;gap:12px;margin-top:12px;padding-bottom:16px;border-bottom:1px solid var(--szary)}
+.cena b{font:700 34px/1 Montserrat,sans-serif;color:var(--granat)}
+.cena s{color:var(--tekst2);font-size:16px}
+.cena small{margin-left:auto;font-size:13px;color:var(--mieta);font-weight:700;white-space:nowrap}
+.strz{display:none;gap:10px}
+.strz button{width:52px;height:52px;border-radius:var(--kropla);border:2px solid var(--granat);background:#fff;color:var(--granat);cursor:pointer;display:grid;place-items:center;transition:background .2s,color .2s}
+.strz button:hover{background:var(--granat);color:#fff}
+.strz svg{width:20px;height:20px}
+@media (min-width:900px){.strz{display:flex}}
+.wszystkie{margin-top:clamp(36px,4vw,64px);background:#fff;border-radius:var(--kropla);border:1px solid var(--linia)}
+.wszystkie summary{list-style:none;cursor:pointer;padding:22px 24px;display:flex;justify-content:space-between;align-items:center;gap:16px;font:700 clamp(17px,.4vw + 15px,21px)/1.25 Montserrat,sans-serif;color:var(--granat)}
+.wszystkie summary::-webkit-details-marker{display:none}
+.wszystkie summary i{flex:none;width:36px;height:36px;border-radius:50%;background:var(--szary);display:grid;place-items:center;font-style:normal;transition:transform .25s}
+.wszystkie[open] summary i{transform:rotate(45deg)}
+.lista{columns:1;column-gap:48px;padding:0 24px 24px;margin:0;list-style:none}
+@media (min-width:760px){.lista{columns:2}}
+@media (min-width:1200px){.lista{columns:3}}
+.lista li{break-inside:avoid;display:flex;gap:8px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--szary);font-size:16px}
+.lista li span{flex:1}
+.lista li b{font-family:Montserrat,sans-serif;color:var(--granat);white-space:nowrap}
+.lista li s{color:var(--tekst2);font-size:13px;white-space:nowrap}
+
+/* wyniki */
+.wyniki{position:relative;overflow:hidden;color:#fff;background:linear-gradient(125deg,var(--granat2) 0%,var(--granat) 45%,var(--morski) 100%)}
+.wyniki .tlo{position:absolute;right:-6%;top:50%;transform:translateY(-50%);width:min(70vw,620px);opacity:.16;pointer-events:none}
+.wyniki .w{position:relative;display:grid;gap:36px}
+.wyniki h2{color:#fff}
+.wyniki .opis{margin-top:18px;color:#D7E0EE;font-size:clamp(16px,.4vw + 15px,20px);max-width:46ch}
+.kroki{display:grid;gap:14px;margin:0;padding:0;list-style:none}
+.kroki li{display:flex;gap:16px;align-items:flex-start;padding:18px 20px;border-radius:var(--kropla);background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14)}
+.kroki li b{display:block;font-family:Montserrat,sans-serif;font-size:18px;margin-bottom:3px}
+.kroki li p{color:#CED8E8;font-size:16px}
+.kroki .kr{flex:none;width:26px;height:30px;margin-top:2px}
+.wyniki .btn{margin-top:28px}
+@media (min-width:900px){.wyniki .w{grid-template-columns:1.05fr 1fr;align-items:center;gap:72px}}
+
+/* pobranie w domu */
+.dzielony{display:grid;gap:32px;align-items:center}
+.ramka{position:relative;border-radius:6px 48px 48px 48px;overflow:hidden;aspect-ratio:4/3}
+.ramka img{width:100%;height:100%;object-fit:cover}
+.dzielony h2{margin-bottom:18px}
+.dzielony p{color:var(--tekst2);font-size:clamp(16px,.3vw + 15px,19px);max-width:48ch}
+.dzielony p+p{margin-top:12px}
+.dzielony .btn{margin-top:26px}
+@media (min-width:900px){.dzielony{grid-template-columns:1fr 1fr;gap:clamp(48px,6vw,110px)}.dzielony.odwr .ramka{order:2}}
+
+/* kontakt */
+.kontakt-g{display:grid;gap:28px}
+.dane{display:grid;gap:22px}
+.dane h3{color:var(--mieta);font-size:15px;margin-bottom:6px}
+.dane p{font-size:18px}
+.dane a{text-decoration:none;font-weight:600}
+.dane a:hover{color:var(--mieta)}
+.tab{border-collapse:collapse;font-size:17px}
+.tab td{padding:3px 22px 3px 0}
+.tab td+td{font-weight:600}
+.mapa{border-radius:6px 40px 40px 40px;overflow:hidden;min-height:340px;background:var(--szary);border:1px solid var(--linia)}
+.mapa iframe{width:100%;height:100%;min-height:340px;border:0;display:block}
+@media (min-width:900px){.kontakt-g{grid-template-columns:.9fr 1.1fr;gap:64px}.mapa,.mapa iframe{min-height:460px}}
+
+/* stopka */
+.stopka{background:var(--granat2);color:#B9C3D8;padding:48px 0 28px;font-size:15px}
+.stopka .w{display:grid;grid-template-columns:1fr 1fr;gap:28px 20px}
+.st-marka{grid-column:1/-1;display:flex;gap:14px;align-items:center}
+.st-marka svg{width:40px;height:46px;flex:none}
+.st-marka b{display:block;color:#fff;font:700 17px/1.2 Montserrat,sans-serif}
+.stopka h4{margin:0 0 8px;color:#fff;font:700 14px/1.2 Montserrat,sans-serif}
+.stopka a{text-decoration:none}
+.stopka a:hover{color:#fff}
+.st-dol{grid-column:1/-1;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;border-top:1px solid rgba(255,255,255,.12);padding-top:20px;font-size:14px}
+@media (min-width:900px){.stopka .w{grid-template-columns:1.4fr 1fr 1fr 1fr}.st-marka{grid-column:auto;align-items:flex-start}}
+</style>
+<style>
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="gk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2B4A6A"/><stop offset="1" stop-color="#5EDBAF"/></linearGradient>
+    <symbol id="kropla" viewBox="0 0 100 114">
+      <path d="M50 2C61 17 94 50 94 76a44 36 0 0 1-88 0C6 50 39 17 50 2Z" fill="url(#gk)"/>
+      <path d="M50 22C58 33 80 56 80 74c0 6-3 9-9 9H29c-6 0-9-3-9-9 0-18 22-41 30-52Z" fill="#fff"/>
+      <path d="M22 80c2 10 10 16 22 16h12c12 0 20-6 22-16Z" fill="#1E2A5A"/>
+      <path d="M44 44h12v10h10v12H56v10H44V66H34V54h10Z" fill="#1E2A5A"/>
+    </symbol>
+  </defs>
+</svg>
+
+<header class="nag">
+  <div class="w">
+    <a class="logo" href="#" aria-label="Punkt Pobrań Krwi Medica - strona główna"><img src="img/logo.webp" width="473" height="250" alt="Punkt Pobrań Krwi Medica"></a>
+    <nav class="menu" aria-label="Menu główne">
+      <a href="#pakiety">Pakiety badań</a>
+      <a href="#wyniki">Wyniki</a>
+      <a href="#domowe">Pobranie w domu</a>
+      <a href="#badania">Badania</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <a class="btn btn-granat nag-tel" href="tel:+48516698098"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 3h3l1.6 4.4-2 1.4a12 12 0 0 0 6.1 6.1l1.4-2 4.4 1.6v3a2 2 0 0 1-2.2 2A17.5 17.5 0 0 1 4.5 5.2 2 2 0 0 1 6.5 3Z"/></svg>516 698 098</a>
+    <button class="burger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="mmenu"><span></span></button>
+  </div>
+</header>
+<nav class="mmenu" id="mmenu" aria-label="Menu">
+  <a href="#pakiety">Pakiety badań</a>
+  <a href="#wyniki">Wyniki</a>
+  <a href="#domowe">Pobranie w domu</a>
+  <a href="#badania">Badania</a>
+  <a href="#kontakt">Kontakt</a>
+  <a class="btn btn-granat" href="tel:+48516698098">Zadzwoń: 516 698 098</a>
+</nav>
+
+<main>
+<section class="hero">
+  <picture>
+    <source media="(max-width:767px)" srcset="img/hero-m-600.webp 600w, img/hero-m-900.webp 900w, img/hero-m-1200.webp 1200w" sizes="100vw">
+    <img src="img/hero-1920.webp" srcset="img/hero-1280.webp 1280w, img/hero-1920.webp 1920w, img/hero-2560.webp 2560w, img/hero-3200.webp 3200w" sizes="100vw" width="1920" height="1280" alt="Pielęgniarka pobiera krew pacjentowi w punkcie pobrań" fetchpriority="high">
+  </picture>
+  <div class="hero-tr">
+    <h1>Punkt pobrań krwi w Wieluniu <span>Medica</span></h1>
+    <p class="lead">Szeroka oferta badań, pakiety w atrakcyjniejszych cenach i wyniki tego samego dnia - w punkcie albo online.</p>
+    <p class="godz"><b>Pn-pt 6:30-11:30</b><b>Sob. 6:30-11:00</b></p>
+    <div class="hero-cta">
+      <a class="btn btn-mieta" href="tel:+48516698098"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 3h3l1.6 4.4-2 1.4a12 12 0 0 0 6.1 6.1l1.4-2 4.4 1.6v3a2 2 0 0 1-2.2 2A17.5 17.5 0 0 1 4.5 5.2 2 2 0 0 1 6.5 3Z"/></svg>Zadzwoń: 516 698 098</a>
+      <a class="btn btn-obrys" href="#pakiety">Zobacz pakiety badań</a>
+    </div>
+  </div>
+</section>
+
+<section class="info" aria-label="Najważniejsze informacje">
+  <div class="w">
+    <div class="info-k"><svg class="kr" aria-hidden="true"><use href="#kropla"/></svg><div><h3>Godziny pobrań</h3><p>Poniedziałek - piątek 6:30-11:30<br>Sobota 6:30-11:00</p></div></div>
+    <div class="info-k"><svg class="kr" aria-hidden="true"><use href="#kropla"/></svg><div><h3>Adres</h3><p>ul. Krakowskie Przedmieście 46, Wieluń<br>budynek Polfinance</p></div></div>
+    <div class="info-k"><svg class="kr" aria-hidden="true"><use href="#kropla"/></svg><div><h3>Telefon i e-mail</h3><p><a href="tel:+48516698098">516 698 098</a><br><a href="mailto:medica.wielun@gmail.com">medica.wielun@gmail.com</a></p></div></div>
+  </div>
+</section>
+
+<section class="sek szara" id="pakiety">
+  <div class="w">
+    <div class="sek-g">
+      <div>
+        <h2>Pakiety badań</h2>
+        <p style="margin-top:14px">Stworzyliśmy dla Was pakiety badań w atrakcyjniejszych cenach - zestawy dobrane do konkretnych potrzeb, od podstawowej kontroli po badania hormonalne i ciążowe.</p>
+      </div>
+      <div class="strz"><button type="button" data-k="-1" aria-label="Poprzednie pakiety"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button><button type="button" data-k="1" aria-label="Następne pakiety"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg></button></div>
+    </div>
+    <div class="karuzela">
+      <div class="tor" id="tor">
+        <article class="pak"><h3>Pakiet podstawowy</h3><div class="cena"><b>118 zł</b><s>132 zł</s></div><p class="w-p">W pakiecie:</p><ul><li>Morfologia krwi</li><li>Glukoza</li><li>Lipidogram (CHOL, HDL, nie-HDL, LDL, TG)</li><li>CRP ilościowo</li></ul></article>
+        <article class="pak"><h3>Pakiet podstawowy rozszerzony</h3><div class="cena"><b>271 zł</b><s>319 zł</s></div><p class="w-p">W pakiecie:</p><ul><li>Morfologia krwi</li><li>Glukoza</li><li>Lipidogram</li><li>CRP ilościowo</li><li>Mocz - badanie ogólne</li><li>PT (INR)</li><li>Kreatynina</li><li>Ferrytyna</li><li>Próby wątrobowe</li></ul></article>
+        <article class="pak"><h3>Pakiet tarczycowy</h3><div class="cena"><b>203 zł</b><s>240 zł</s></div><p class="w-p">W pakiecie:</p><ul><li>TSH</li><li>FT4</li><li>FT3</li><li>anty-TPO</li><li>anty-TG</li></ul></article>
+        <article class="pak"><h3>Pakiet insulinooporność</h3><div class="cena"><b>315 zł</b><s>348 zł</s></div><p class="w-p">W pakiecie:</p><ul><li>Glukoza</li><li>Insulina</li><li>Morfologia</li><li>AST</li><li>ALT</li><li>Lipidogram</li><li>Żelazo</li><li>HOMA-IR</li><li>HbA1c</li></ul></article>
+        <article class="pak"><h3>Pakiet sercowy podstawowy</h3><div class="cena"><b>245 zł</b><s>263 zł</s></div><p class="w-p">W pakiecie:</p><ul><li>Morfologia krwi</li><li>Elektrolity</li><li>CK-MB</li><li>OB</li><li>TSH</li><li>Glukoza</li><li>Kreatynina</li><li>Lipidogram</li></ul></article>
+        <article class="pak"><h3>Pakiet cukrzycowy</h3><div class="cena"><b>135 zł</b><s>149 zł</s></div><p class="w-p">W pakiecie:</p><ul><li>Glukoza</li><li>Insulina</li><li>Mocz - badanie ogólne</li><li>Hemoglobina glikowana</li></ul></article>
+        <article class="pak"><h3>Pakiet dla kobiet w ciąży</h3><div class="cena"><b>499 zł</b><s>520 zł</s></div><p class="w-p">W pakiecie:</p><ul><li>Grupa krwi</li><li>Morfologia krwi</li><li>Mocz - badanie ogólne</li><li>Glukoza</li><li>TSH</li><li>HCV przeciwciała</li><li>Różyczka (Rubella virus) IgG</li><li>Toxoplasma gondii IgM</li><li>Toxoplasma gondii IgG</li><li>VDRL</li></ul></article>
+        <article class="pak"><h3>Pakiet dla dzieci</h3><div class="cena"><b>230 zł</b><s>250 zł</s></div><p class="w-p">W pakiecie:</p><ul><li>Mocz - badanie ogólne</li><li>Morfologia krwi</li><li>OB</li><li>TSH</li><li>Glukoza</li><li>IgE całkowite</li><li>Witamina D</li></ul></article>
+        <article class="pak"><h3>Pakiet mężczyzna 40+</h3><div class="cena"><b>389 zł</b><s>410 zł</s></div><p class="w-p">W pakiecie:</p><ul><li>Morfologia</li><li>OB</li><li>Mocz</li><li>Glukoza</li><li>CEA</li><li>Kwas moczowy</li><li>Kreatynina</li><li>Lipidogram</li><li>PSA</li><li>Testosteron</li><li>Próby wątrobowe</li></ul></article>
+        <article class="pak"><h3>Pakiet sportowy</h3><div class="cena"><b>380 zł</b><s>416 zł</s></div><p class="w-p">W pakiecie:</p><ul><li>Morfologia krwi</li><li>OB</li><li>Mocz - badanie ogólne</li><li>Elektrolity</li><li>Glukoza</li><li>Kreatynina</li><li>Lipidogram</li><li>Wapń całkowity</li><li>Żelazo</li><li>TSH</li><li>Próby wątrobowe</li><li>Fibrynogen</li><li>Magnez</li><li>CK</li></ul></article>
+        <article class="pak"><h3>Pakiet dla dziadka</h3><div class="cena"><b>119 zł</b><s>129 zł</s></div><p class="w-p">W pakiecie:</p><ul><li>Morfologia krwi</li><li>Mocz - badanie ogólne</li><li>Glukoza</li><li>PSA</li><li>OB</li></ul></article>
+        <article class="pak"><h3>Pakiet dla babci</h3><div class="cena"><b>122 zł</b><s>136 zł</s></div><p class="w-p">W pakiecie:</p><ul><li>Morfologia krwi</li><li>Mocz - badanie ogólne</li><li>Glukoza</li><li>CA 125</li><li>OB</li></ul></article>
+      </div>
+    </div>
+
+    <details class="wszystkie" id="wszystkie">
+      <summary>Wszystkie pakiety badań (37) z cenami <i aria-hidden="true">+</i></summary>
+      <ul class="lista">
+        <li><span>Pakiet podstawowy</span><s>132 zł</s><b>118 zł</b></li>
+        <li><span>Pakiet podstawowy rozszerzony</span><s>319 zł</s><b>271 zł</b></li>
+        <li><span>Pakiet tarczycowy</span><s>240 zł</s><b>203 zł</b></li>
+        <li><span>Pakiet dla kobiet w ciąży</span><s>520 zł</s><b>499 zł</b></li>
+        <li><span>Pakiet sportowy</span><s>416 zł</s><b>380 zł</b></li>
+        <li><span>Pakiet cukrzycowy</span><s>149 zł</s><b>135 zł</b></li>
+        <li><span>Pakiet dla dzieci</span><s>250 zł</s><b>230 zł</b></li>
+        <li><span>Pakiet dla dziadka</span><s>129 zł</s><b>119 zł</b></li>
+        <li><span>Pakiet dla babci</span><s>136 zł</s><b>122 zł</b></li>
+        <li><span>Pakiet sercowy podstawowy</span><s>263 zł</s><b>245 zł</b></li>
+        <li><span>Pakiet insulinooporność</span><s>348 zł</s><b>315 zł</b></li>
+        <li><span>Pakiet mężczyzna 40+</span><s>410 zł</s><b>389 zł</b></li>
+        <li><span>Pakiet kobieta 40+</span><s>403 zł</s><b>389 zł</b></li>
+        <li><span>Markery nowotworowe dla mężczyzn</span><s>170 zł</s><b>153 zł</b></li>
+        <li><span>Markery nowotworowe dla kobiet</span><s>368 zł</s><b>339 zł</b></li>
+        <li><span>Pakiet wątrobowy rozszerzony</span><s>252 zł</s><b>230 zł</b></li>
+        <li><span>Pakiet nerkowy</span><s>116 zł</s><b>104 zł</b></li>
+        <li><span>Pakiet dla kobiet po porodzie</span><s>265 zł</s><b>240 zł</b></li>
+        <li><span>Pakiet trzustkowy</span><s>127 zł</s><b>115 zł</b></li>
+        <li><span>Pakiet przed zabiegiem</span><s>330 zł</s><b>309 zł</b></li>
+        <li><span>Pakiet antyfosfolipidowy</span><s>571 zł</s><b>535 zł</b></li>
+        <li><span>Pakiet osteoporoza</span><s>371 zł</s><b>319 zł</b></li>
+        <li><span>Pakiet trądzik</span><s>435 zł</s><b>399 zł</b></li>
+        <li><span>Pakiet reumatyczny</span><s>294 zł</s><b>279 zł</b></li>
+        <li><span>Pakiet anemia</span><s>291 zł</s><b>269 zł</b></li>
+        <li><span>Pakiet otyłość</span><s>266 zł</s><b>239 zł</b></li>
+        <li><span>Pakiet dla kobiet stosujących antykoncepcję hormonalną</span><s>682 zł</s><b>633 zł</b></li>
+        <li><span>Pakiet brzuszny</span><s>499 zł</s><b>459 zł</b></li>
+        <li><span>Pakiet intymny</span><s>524 zł</s><b>482 zł</b></li>
+        <li><span>Pakiet dla wegan i wegetarian</span><s>285 zł</s><b>269 zł</b></li>
+        <li><span>Pakiet badań przed menopauzą</span><s>331 zł</s><b>299 zł</b></li>
+        <li><span>Pakiet badań przed dietą</span><s>577 zł</s><b>549 zł</b></li>
+        <li><span>Pakiet łysienie androgenowe</span><s>676 zł</s><b>639 zł</b></li>
+        <li><span>Pakiet zespół policystycznych jajników (PCOS)</span><s>658 zł</s><b>625 zł</b></li>
+        <li><span>Pakiet hormonalny dla mężczyzn</span><s>437 zł</s><b>409 zł</b></li>
+        <li><span>Pakiet hormonalny dla kobiet</span><s>470 zł</s><b>449 zł</b></li>
+        <li><span>Pakiet dla kobiet dojrzałych</span><s>626 zł</s><b>599 zł</b></li>
+      </ul>
+    </details>
+  </div>
+</section>
+
+<section class="sek wyniki" id="wyniki">
+  <svg class="tlo" viewBox="0 0 100 114" aria-hidden="true"><path d="M50 2C61 17 94 50 94 76a44 36 0 0 1-88 0C6 50 39 17 50 2Z" fill="none" stroke="#5EDBAF" stroke-width="1.2"/><path d="M50 22C58 33 80 56 80 74c0 6-3 9-9 9H29c-6 0-9-3-9-9 0-18 22-41 30-52Z" fill="none" stroke="#fff" stroke-width=".8"/><path d="M44 44h12v10h10v12H56v10H44V66H34V54h10Z" fill="none" stroke="#fff" stroke-width=".8"/></svg>
+  <div class="w">
+    <div>
+      <h2>Wyniki badań tego samego dnia</h2>
+      <p class="opis">Rano pobranie, a wynik jeszcze tego samego dnia. Odbierzesz go w punkcie przy Krakowskim Przedmieściu albo sprawdzisz online, bez wychodzenia z domu.</p>
+      <a class="btn btn-mieta" href="https://wyniki.diag.pl/" target="_blank" rel="noopener">Sprawdź wyniki online</a>
+    </div>
+    <ol class="kroki">
+      <li><svg class="kr" aria-hidden="true"><use href="#kropla"/></svg><div><b>Pobranie rano</b><p>Od poniedziałku do piątku 6:30-11:30, w soboty 6:30-11:00.</p></div></li>
+      <li><svg class="kr" aria-hidden="true"><use href="#kropla"/></svg><div><b>Wynik tego samego dnia</b><p>Nie trzeba czekać kilku dni na podstawowe wyniki.</p></div></li>
+      <li><svg class="kr" aria-hidden="true"><use href="#kropla"/></svg><div><b>W punkcie albo online</b><p>Odbiór w punkcie albo podgląd wyników w internecie.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sek" id="domowe">
+  <div class="w dzielony">
+    <div class="ramka"><img src="img/domowe-1400.webp" srcset="img/domowe-800.webp 800w, img/domowe-1400.webp 1400w" sizes="(min-width:900px) 45vw, 100vw" width="1400" height="933" loading="lazy" alt="Pobranie krwi z żyły przy stole"></div>
+    <div>
+      <h2>Pobranie krwi w domu</h2>
+      <p>Nie możesz przyjść do punktu? Umów domowe pobranie krwi - przyjedziemy do Ciebie.</p>
+      <p>Termin ustalisz jednym telefonem.</p>
+      <a class="btn btn-granat" href="tel:+48516698098">Umów pobranie: 516 698 098</a>
+    </div>
+  </div>
+</section>
+
+<section class="sek szara" id="badania">
+  <div class="w dzielony odwr">
+    <div class="ramka"><img src="img/pobranie-1400.webp" srcset="img/pobranie-800.webp 800w, img/pobranie-1400.webp 1400w" sizes="(min-width:900px) 45vw, 100vw" width="1400" height="933" loading="lazy" alt="Przygotowanie ręki pacjenta do pobrania krwi"></div>
+    <div>
+      <h2>Badania laboratoryjne</h2>
+      <p>Szeroka oferta badań pozwoli Ci lepiej zadbać o swoje zdrowie: od morfologii i badania moczu, przez badania tarczycy, hormonów i witamin, po markery nowotworowe.</p>
+      <p>Zapytaj o konkretne badanie i jego cenę - wystarczy telefon.</p>
+      <a class="btn btn-granat" href="tel:+48516698098">Zapytaj o badanie</a>
+    </div>
+  </div>
+</section>
+
+<section class="sek" id="kontakt">
+  <div class="w">
+    <div class="sek-g"><h2>Kontakt i dojazd</h2></div>
+    <div class="kontakt-g">
+      <div class="dane">
+        <div><h3>Punkt Pobrań Krwi Medica</h3><p>ul. Krakowskie Przedmieście 46<br>98-300 Wieluń (budynek Polfinance)</p></div>
+        <div><h3>Godziny otwarcia</h3>
+          <table class="tab"><tr><td>Poniedziałek - piątek</td><td>6:30-11:30</td></tr><tr><td>Sobota</td><td>6:30-11:00</td></tr><tr><td>Niedziele i święta</td><td>nieczynne</td></tr></table>
+        </div>
+        <div><h3>Infolinia</h3><p><a href="tel:+48516698098">+48 516 698 098</a><br><a href="mailto:medica.wielun@gmail.com">medica.wielun@gmail.com</a></p></div>
+      </div>
+      <div class="mapa" id="mapa" data-src="https://www.google.com/maps?q=Krakowskie+Przedmie%C5%9Bcie+46,+98-300+Wielu%C5%84&amp;z=16&amp;output=embed"></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="stopka">
+  <div class="w">
+    <div class="st-marka"><svg aria-hidden="true"><use href="#kropla"/></svg><div><b>Punkt Pobrań Krwi Medica</b>Medica Daria Siódmak</div></div>
+    <div><h4>Adres</h4>ul. Krakowskie Przedmieście 46<br>98-300 Wieluń</div>
+    <div><h4>Kontakt</h4><a href="tel:+48516698098">516 698 098</a><br><a href="mailto:medica.wielun@gmail.com">medica.wielun@gmail.com</a></div>
+    <div><h4>Godziny</h4>Pn-pt 6:30-11:30<br>Sob. 6:30-11:00</div>
+    <div class="st-dol">
+      <span>© 2026 Punkt Pobrań Krwi Medica</span>
+      <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=badaniamedica.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var b=document.querySelector('.burger'),m=document.getElementById('mmenu');
+  b.addEventListener('click',function(){var o=m.classList.toggle('otw');b.setAttribute('aria-expanded',o)});
+  m.addEventListener('click',function(e){if(e.target.tagName==='A'){m.classList.remove('otw');b.setAttribute('aria-expanded',false)}});
+  // karuzela: przewijanie palcem, myszą i strzałkami
+  var t=document.getElementById('tor');
+  document.querySelectorAll('.strz button').forEach(function(x){x.addEventListener('click',function(){var k=t.querySelector('.pak');t.scrollBy({left:(k.offsetWidth+18)*Number(x.dataset.k),behavior:'smooth'})})});
+  var d=false,sx=0,sl=0,ruch=0;
+  t.addEventListener('pointerdown',function(e){if(e.pointerType!=='mouse')return;d=true;ruch=0;sx=e.clientX;sl=t.scrollLeft;t.classList.add('ciag')});
+  window.addEventListener('pointermove',function(e){if(!d)return;ruch=Math.abs(e.clientX-sx);t.scrollLeft=sl-(e.clientX-sx)});
+  window.addEventListener('pointerup',function(){if(!d)return;d=false;t.classList.remove('ciag')});
+  t.addEventListener('click',function(e){if(ruch>6){e.preventDefault();e.stopPropagation()}},true);
+  // lista pakietow otwarta na komputerze
+  if(window.matchMedia('(min-width:900px)').matches)document.getElementById('wszystkie').open=true;
+  // mapa po przewinięciu
+  var mp=document.getElementById('mapa');
+  var wstaw=function(){if(mp.firstChild)return;var f=document.createElement('iframe');f.src=mp.dataset.src.replace(/&amp;/g,'&');f.title='Mapa dojazdu do punktu pobrań Medica';f.loading='lazy';f.referrerPolicy='no-referrer-when-downgrade';mp.appendChild(f)};
+  if('IntersectionObserver' in window){new IntersectionObserver(function(z,o){if(z[0].isIntersecting){wstaw();o.disconnect()}},{rootMargin:'300px'}).observe(mp)}else wstaw();
+  // aktywna pozycja menu
+  var linki=document.querySelectorAll('.menu a');
+  if('IntersectionObserver' in window){var io=new IntersectionObserver(function(z){z.forEach(function(e){if(e.isIntersecting){linki.forEach(function(a){a.classList.toggle('akt',a.getAttribute('href')==='#'+e.target.id)})}})},{rootMargin:'-45% 0px -50% 0px'});['pakiety','wyniki','domowe','badania','kontakt'].forEach(function(id){io.observe(document.getElementById(id))})}
+})();
+</script>
+</body>
+</html>
